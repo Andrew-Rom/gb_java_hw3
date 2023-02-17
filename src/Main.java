@@ -48,6 +48,4 @@ public class Main {
         }
         return sum / lst.size();
     }
-
-
 }
