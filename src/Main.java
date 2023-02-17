@@ -8,7 +8,7 @@ public class Main {
         1. Пусть дан произвольный список целых чисел,
         удалить из него четные числа (в языке уже есть что-то готовое для этого)
         */
-        System.out.println("Java HW3. Task 1 - Delete even digits from on random list");
+        System.out.println("Java HW3. Task 1 - Delete even digits from random list");
         Scanner in = new Scanner(System.in);
         System.out.print("Enter quantity of elements of list: ");
         int quantityOfElements = in.nextInt();
