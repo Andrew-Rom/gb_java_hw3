@@ -19,9 +19,9 @@ public class Main {
         for (int i = 0; i < quantityOfElements; i++) {
             randomList.add(r.nextInt(-100, 101));
         }
-        System.out.println("Original list: " + randomList.toString());
+        System.out.println("Original list: " + randomList);
         randomList.removeIf(num -> (num % 2 == 0));
-        System.out.println("Modified list: " + randomList.toString());
+        System.out.println("Modified list: " + randomList);
 
 
 
